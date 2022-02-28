@@ -43,9 +43,8 @@ header>nav>a>h2.I{
 
 header>nav>a{   
     display: inline-flex;
-    font-family: var(--fonte-destaque);
     padding-left:1vw;
-    font-size: 2vw;
+    font-size: 2.5vw;
     color: black;
     text-decoration: none;
     padding-bottom: 13px;
@@ -68,38 +67,44 @@ main{
 }
 
 main>section{
-    background-image: url("../Imagens/Campeonato1.jpg");
-    width: 90%;
+    width: 80%;
     border-radius: 4px;
     box-shadow: black 1px 1px 3px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 main>section.foto1{
-    background-image: url("../Imagens/Campeonato1.jpg");
-    background-position: center center;
+    background-image: url("../Imagens/foto_antiga2.jpg");
+    background-position: top center;
     margin: 20px auto;
-    height: 400px;
+    height: 600px;
 }   
 
 main>section.foto2{
-    background-image: url("../Imagens/Imagem\ \ com\ famoso.jpg");
+    background-image: url("../Imagens/foto_antiga.jpg");
+    background-position: top center;
+    margin: 20px auto;
+    height: 600px;
+}
+main>section.foto3{
+    background-image: url("../Imagens/Campeonato1.jpg");
     background-position: center center;
     margin: 20px auto;
-    height: 800px;
+    height: 300px;
 }
 
 main>h2{
     font-family: var(--fonte-titulo);
     font-size: 2.9vw;
+    padding: 20px;
     background-color: rgba(0, 0, 0, 0.287);
-    width: 90%;
-    border-radius: 10px;
+    width: 100%;
     color: white;
     margin-top: 20px;
 }
+
 main>div{
-    width: 88%;
+    width: 78%;
     margin: 10px auto;
     box-shadow: black 1px 1px 4px;
     background-color: white;
@@ -108,24 +113,25 @@ main>div{
 
 main>div>p{
     text-align: justify;
-    font-family: Helvetica, sans-serif;
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-indent: 3vw;
     padding: 5px;
 }
 
 footer{
     background-color: black;
-    font-size: 1.9vw;
+    font-size: 3vw;
     box-shadow: black 1px -1px 4px;
     padding: 10px;
     font-family: var(--fonte-titulo);
     color: rgba(129, 129, 129, 0.979);
 }
+
 footer>p>a{
     text-decoration: none;
     color: #aa0303e0;
 }
+
 footer>p>a:hover{
     font-size: 110%;
 }
