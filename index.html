@@ -1,15 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-
--<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Página Inicial </title>
+    <title> História </title>
     <link rel="stylesheet" href=" Estilo/style.css">
     <link rel="shortcut icon" href="imagens/favicon/favicon-32x32.png" type="image/x-icon">
 </head>
@@ -20,11 +15,12 @@
             <img src="Imagens/favicon/biceps-159681_960_720.png" alt="">
         </span>
         <nav>
-            <a class="I" href="#">
-                <h2> História </h2>
-            </a>
+            <button type="button" id="play" onclick="mudar();">
+                <img src="Imagens/botão_play.png" alt="">
+            </button>
+           <audio src="midia/rock.mp3"  loop></audio>
             <a href="#">
-                <h2> Conquistas </h2>
+                <h2 class="I"> História </h2>
             </a>
             <a href="#">
                 <h2> Treinamento </h2>
@@ -34,35 +30,87 @@
     <main>
         <h2> Como tudo começou... </h2>
         <div>
-            <p>Natural de uma ilha em <strong>Recife-PE</strong>, não podemos negar que Joselito possuia uma aptidão física aguçada desde criança, quando disputava luta de braço com os seus colegas de classe. Forjado desde cedo com muito trabalho pesado, dentre eles: mêcanico de tratores e pedreiro, alcançou já na adolescência uma força de deixar muitos homens mais velhos com inveja. </p>
-            <p> Ao completar 18 anos serviu o exército no Recife, passando por árduos treinamentos e tendo sua primeira vitória significativa contra um forte remador do seu pelotão. Inspirado nos filmes do <strong>Bruce Lee</strong> chegou a praticar <strong>Kung-fu</strong>, mas logo percebeu que aquela não era a sua vocação e não demorou muito para encontrar o seu esporte: A luta de braço. </p>
+            <p>Natural de uma ilha em <strong>Recife-PE</strong>, não podemos negar que Joselito possuía uma aptidão física aguçada desde criança, quando disputava luta de braço com os seus colegas de classe e o pai. "E não era só força não, eu também comia bastante desde pequenininho, cheguei a comer duas dúzias de banana certa vez", comenta.
+            </p>
+            <p>
+            Forjado desde cedo com muito trabalho pesado, dentre eles: mêcanico de tratores e pedreiro, alcançando na adolescência uma força de deixar muitos homens mais velhos com inveja. Joselito começou a treinar musculação com propriedade aos 16 anos, mas já treinava de uma forma rudimentar desde que conseguiu ficar de pé. "O dia-a-dia na roça era bem puxado"</p>
+        </div>
+
+        <section class="ilha"></section>
+
+        <div>
+            <p> Ao completar 18 anos serviu o exército em Recife, passando por árduos treinamentos e tendo sua primeira vitória significativa contra um forte remador do pelotão. 
+            </p> 
+            <p>Seu tempo no exército o fez perceber seu gosto pela área militar, o que acabou influenciando a sua decisão de se consolidar como segurança particular.
+            </p>
+            <p>
+            Inspirado nos filmes do <strong>Bruce Lee</strong> chegou a praticar <strong>Kung-fu</strong> e outras artes marciais, mas logo percebeu que aquela não era a sua vocação e não demorou muito para encontrar o seu verdadeiro esporte: A Luta de Braço. </p>
+        </div>
+
+        <section class="foto1"></section>
+
+        <div>
             <p>Porém, esse era apenas o começo da caminhada, muitos anos se passariam e muito suor seria derramado até que o primeiro mundial de Queda de Braço fosse conquistado, e a bandeira do Brasil fosse levantada no pódio.</p>
         </div>
     
-        <section class="foto1"></section>
-        <h2>A caminhada</h2>
+        <section class="foto2"></section>
         <div>
-            <P>No seu emprego de segurança o passatempo favorito dos seus colegas era justamente esse, onde peqenas somas de dinheiro eram apostadas entre os colegas, no ínicio ele só observava seus amigos jogarem até que em um determinado dia eles resolveram chama-lo para competir.</P>
-            <P>E o colocaram logo contra um dos seguranças mais fortes como seu oponente, que pesava pouco mais de <strong>100kg</strong>, apesar dos pensamentos de que iria quebrar o braço, no momento da ação Joselito percebeu não ter tido nenhuma dificuldade de vencer o seu adversário, e repetiu o feito com todos os seus 14 colegas, um por um.</P>
-            <p> Encontrar um tempo para conscientzar trabalho e treinamento no ínicio foi difícil, mas a paixão pelo esporte o manteve praticando. Dessa forma após encontrar o seu orientador <strong>Vidal</strong>, Joselito persistiu firme na sua rotina de treino e alimentação chegando a conquistar algumas vitórias extraordinárias ao longo dessa jornada.</p>
-            <p></p>
-            <p></p>
+            <p> Impulsionado por problemas financeiros no Nordeste, Joselito junto com um dos seus tios se mudou para São Paulo com o objetivo de ter mais oportunidades. O seu porte físico aliado com a sua experiência militar o fez ser rapidamente empregado como vigilante.</p>
+            <P>No trabalho o passatempo favorito dos seus colegas era justamente a queda de braço, aonde pequenas somas de dinheiro eram apostadas entre eles. No ínicio ele só observava seus amigos jogarem, até que em um determinado dia eles resolveram chamá-lo para competir.</P>
         </div>
-            <section class="foto2"></section>
+        <section class="VSPP"></section>
+        <div>
+        
+            <P>E o colocaram logo contra um dos seguranças mais fortes como seu oponente que pesava pouco mais de 100kg, apesar dos pensamentos de que quebraria o braço, no momento da ação Joselito percebeu não ter tido dificuldades de vencer o seu adversário e repetiu o feito com todos os seus 14 colegas, um por um.</P>
+            <p> No ínicio foi difícil encontrar uma forma de consciliar trabalho e treinamento, mas a paixão pelo esporte o manteve praticando. Dessa forma, depois de encontrar o seu orientador <strong>Vidal</strong>, Joselito persistiu firme na sua rotina de treino e alimentação chegando a conquistar algumas vitórias extraordinárias ao longo dessa jornada.</p>
+        </div>
+
+            <section class="foto3"></section>
+            <h2>A caminhada</h2>
+        <div>
+            <p>Com treinamentos especializados e ajuda dos seus amigos, Joselito começou a disputar diversos competições ao redor do Brasil, desde campeonatos  paulistas, brasileiros e eventos patrocinados. </p>
+            <p> Em 1996 e 1997, viajou para outros países para participar de mundiais e eventos como <strong>Arnold Festival</strong> e <strong>World Armwrestling Championship</strong> competindo contra americanos e russos. 
+            </p>
+            </div>
+            <section class="podio1"></section>
+            <div>
+            <p>Os anos foram passando e a sua força só crescia, de vigilante passou para segurança particular e trabalhou com grandes personalidades como o político e bancário <strong>Olavo Setúbal</strong>, que faleceu em 2008.</p>
+            <p>Foi trabalhando no <strong>Itaú</strong>, como segurança de Olavo, que conseguiu o seu primeiro patrocínio internacional para <strong>Las Vegas</strong>, onde disputou o mundial em 2012 e venceu em primeiro lugar nos dois braços.</p>
+        </div>
+        <section class="olavo"></section>
+        <div>
+        </div>
+        <section class="mundial"></section>
+
             <h2>A paixão pelo esporte</h2>
             <div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit rerum voluptates assumenda sunt labore aut ea sapiente, quas consequatur tempora. Itaque aliquam eaque qui deleniti! Commodi saepe voluptatum harum! In.</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis aspernatur tempore dolore voluptatum earum? Illo sequi hic accusantium, necessitatibus ex, blanditiis a veritatis eius corporis numquam, minima esse maxime!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ex rerum veritatis amet quos. Ea minima repellendus ex adipisci laboriosam maxime voluptate deserunt, quas ducimus magnam tenetur dolore necessitatibus quos.</p>
             </div>
-            <section class="foto3"></section>
+            <section class="foto4"></section>
     </main>
     <footer>
-        <p>Redes Sociais de Joselito Leite da Silva : </p>
+        <p>Redes Sociais de Joselito Leite da Silva: </p>
         <p><a href="">Instagram</a> e <a href="">Facebook</a></p>
         <hr>
         <p>Site criado por Rafael Leite da Silva. </p>
-        <p>Redes Sociais : <a href="">Instagram</a> e <a href="">GitHub</a></p>
+        <p>Redes Sociais : <a href="https://www.instagram.com/1car0_/">Instagram</a> e <a href="https://github.com/rafaelleitedasilva">GitHub</a></p>
     </footer>
+
+    <script>
+        const audio = document.querySelector('audio')
+        audio.controls(0.5)
+        var play = false
+        function mudar(){
+            if (play == true){
+                audio.play()
+                play = false
+            } else{
+                audio.pause()
+                play = true
+            }
+        }
+    </script>
 </body>
 </html>
