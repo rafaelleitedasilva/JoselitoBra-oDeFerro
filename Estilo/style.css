@@ -89,7 +89,7 @@ main{
 }
 
 main>section{
-    width: 82%;
+    width: 85%;
     border-radius: 1px;
     box-shadow: black 1px 1px 3px;
     background-size: cover;
@@ -164,11 +164,11 @@ main>h2{
 }
 
 main>div{
-    width: 78%;
+    width: 95%;
     margin: 3vw auto;
     box-shadow: black 1px 1px 4px;
     background-color: white;
-    padding: 20px;
+    padding: 30px;
 }
 
 main>div>p{
